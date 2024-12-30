@@ -1,3 +1,8 @@
+/* 
+se definen las variables a utilizar donde despues desde el main.tf en raiz se recibira el valor correspondiente 
+exceptuando el tipo de instancia debido a que si no se coloca nada optara por un t2.micro dentro de la capa gratuita
+*/
+
 variable "ec2_count" {
     type = number
   

@@ -1,3 +1,5 @@
+/* se exponene los valores requeridos dentro del trabajo */
+
 output "ec2" {
     value = module.ec2.ec2_details
 }

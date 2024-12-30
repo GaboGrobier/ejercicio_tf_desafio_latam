@@ -1,3 +1,5 @@
+/* se declaran las variables necesarias para la construccion de la subnet*/
+
 variable "vpc_id_mainly" {
     type = string
     description = "Variable para almacenar el id de la vpc "

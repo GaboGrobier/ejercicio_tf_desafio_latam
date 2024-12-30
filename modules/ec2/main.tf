@@ -1,3 +1,8 @@
+/* Construccion del Ec2 la cual se declaran variables que solo estan preparadas para almacenar informacion , estos datos 
+seran recibidos despues desde el main correspondiente 
+
+*/
+
 resource "aws_instance" "desafio_tf_instance" {
     ami = var.ami_ec2
     count = var.ec2_count

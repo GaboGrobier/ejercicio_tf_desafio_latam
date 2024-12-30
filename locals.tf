@@ -1,3 +1,4 @@
+/* se declaran valores dinamicos para poder utilizarlos dentro del main estos valores puedes ser cambiados de acuerdo a la necesidad */
 locals {
   vpc_name = "vpc_tf_desafio11"
   cidr_subnet = ["192.168.1.0/24","192.168.2.0/24"]
