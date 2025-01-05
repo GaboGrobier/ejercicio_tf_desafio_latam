@@ -153,19 +153,7 @@ Además, las salidas de Terraform mostrarán el ID de las instancias EC2 y la UR
 
 Este proyecto automatiza la creación de una infraestructura en la nube utilizando Terraform, proporcionando una manera fácil de gestionar recursos en AWS. Los módulos utilizados permiten la creación de recursos de manera modular y reutilizable, siguiendo las mejores prácticas para la gestión de infraestructuras.
 
----
 
-## Criterios de Entrega
-
-- Todos los archivos de Terraform deben estar organizados dentro de un repositorio Git o una carpeta comprimida en formato ZIP.
-- El código debe estar comentado brevemente para explicar el funcionamiento de la configuración.
-- La documentación debe incluir instrucciones claras para desplegar y destruir la infraestructura utilizando Terraform.
-
-## Capturas de Pantalla
-
-Asegúrate de tomar capturas de pantalla de los resultados de los comandos ejecutados (`terraform plan`, `terraform apply`, `terraform output`) para confirmar que la infraestructura ha sido desplegada correctamente.
-
----
 
 ## Conclusión
 
